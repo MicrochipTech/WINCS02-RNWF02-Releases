@@ -1,0 +1,498 @@
+[
+    {
+        "cmd": "WINC_CMD_ID_CFG",
+        "elems": [
+            {
+                "type": "WINC_TYPE_INTEGER_UNSIGNED",
+                "length": 1,
+                "value": 99
+            },
+            {
+                "type": "WINC_TYPE_INTEGER_UNSIGNED",
+                "length": 2,
+                "value": 1234
+            }
+        ]
+    },
+    {
+        "cmd": "WINC_CMD_ID_CFG",
+        "elems": [
+            {
+                "type": "WINC_TYPE_INTEGER_UNSIGNED",
+                "length": 1,
+                "value": 99
+            },
+            {
+                "type": "WINC_TYPE_INTEGER",
+                "length": 4,
+                "value": -1234
+            }
+        ]
+    },
+    {
+        "cmd": "WINC_CMD_ID_CFG",
+        "elems": [
+            {
+                "type": "WINC_TYPE_INTEGER_UNSIGNED",
+                "length": 1,
+                "value": 99
+            },
+            {
+                "type": "WINC_TYPE_INTEGER_UNSIGNED",
+                "length": 2,
+                "value": 4660
+            }
+        ]
+    },
+    {
+        "cmd": "WINC_CMD_ID_CFG",
+        "elems": [
+            {
+                "type": "WINC_TYPE_INTEGER_UNSIGNED",
+                "length": 1,
+                "value": 99
+            },
+            {
+                "type": "WINC_TYPE_INTEGER_UNSIGNED",
+                "length": 2,
+                "value": 668
+            }
+        ]
+    },
+    {
+        "cmd": "WINC_CMD_ID_CFG",
+        "elems": [
+            {
+                "type": "WINC_TYPE_INTEGER_UNSIGNED",
+                "length": 1,
+                "value": 99
+            },
+            {
+                "type": "WINC_TYPE_INTEGER_UNSIGNED",
+                "length": 2,
+                "value": 649
+            }
+        ]
+    },
+    {
+        "cmd": "WINC_CMD_ID_CFG",
+        "elems": [
+            {
+                "type": "WINC_TYPE_INTEGER_UNSIGNED",
+                "length": 1,
+                "value": 99
+            },
+            {
+                "type": "WINC_TYPE_INTEGER_UNSIGNED",
+                "length": 1,
+                "value": 255
+            }
+        ]
+    },
+    {
+        "cmd": "WINC_CMD_ID_CFG",
+        "elems": [
+            {
+                "type": "WINC_TYPE_INTEGER_UNSIGNED",
+                "length": 1,
+                "value": 99
+            },
+            {
+                "type": "WINC_TYPE_INTEGER_UNSIGNED",
+                "length": 2,
+                "value": 65535
+            }
+        ]
+    },
+    {
+        "cmd": "WINC_CMD_ID_CFG",
+        "elems": [
+            {
+                "type": "WINC_TYPE_INTEGER_UNSIGNED",
+                "length": 1,
+                "value": 99
+            },
+            {
+                "type": "WINC_TYPE_INTEGER_UNSIGNED",
+                "length": 3,
+                "value": 16777215
+            }
+        ]
+    },
+    {
+        "cmd": "WINC_CMD_ID_CFG",
+        "elems": [
+            {
+                "type": "WINC_TYPE_INTEGER_UNSIGNED",
+                "length": 1,
+                "value": 99
+            },
+            {
+                "type": "WINC_TYPE_INTEGER_UNSIGNED",
+                "length": 4,
+                "value": 4294967295
+            }
+        ]
+    },
+    {
+        "cmd": "WINC_CMD_ID_CFG",
+        "elems": [
+            {
+                "type": "WINC_TYPE_INTEGER_UNSIGNED",
+                "length": 1,
+                "value": 99
+            },
+            {
+                "type": "WINC_TYPE_INTEGER_FRAC",
+                "length": 4,
+                "value": 1.5
+            }
+        ]
+    },
+    {
+        "cmd": "WINC_CMD_ID_CFG",
+        "elems": [
+            {
+                "type": "WINC_TYPE_INTEGER_UNSIGNED",
+                "length": 1,
+                "value": 99
+            },
+            {
+                "type": "WINC_TYPE_STRING",
+                "length": 0,
+                "value": "",
+                "encoding": "bytes"
+            }
+        ]
+    },
+    {
+        "cmd": "WINC_CMD_ID_CFG",
+        "elems": [
+            {
+                "type": "WINC_TYPE_INTEGER_UNSIGNED",
+                "length": 1,
+                "value": 99
+            },
+            {
+                "type": "WINC_TYPE_STRING",
+                "length": 4,
+                "value": "1234",
+                "encoding": "ascii"
+            }
+        ]
+    },
+    {
+        "cmd": "WINC_CMD_ID_CFG",
+        "elems": [
+            {
+                "type": "WINC_TYPE_INTEGER_UNSIGNED",
+                "length": 1,
+                "value": 99
+            },
+            {
+                "type": "WINC_TYPE_STRING",
+                "length": 4,
+                "value": "ABCD",
+                "encoding": "ascii"
+            }
+        ]
+    },
+    {
+        "cmd": "WINC_CMD_ID_CFG",
+        "elems": [
+            {
+                "type": "WINC_TYPE_INTEGER_UNSIGNED",
+                "length": 1,
+                "value": 99
+            },
+            {
+                "type": "WINC_TYPE_STRING",
+                "length": 5,
+                "value": "1234\n",
+                "encoding": "ascii"
+            }
+        ]
+    },
+    {
+        "cmd": "WINC_CMD_ID_CFG",
+        "elems": [
+            {
+                "type": "WINC_TYPE_INTEGER_UNSIGNED",
+                "length": 1,
+                "value": 99
+            },
+            {
+                "type": "WINC_TYPE_STRING",
+                "length": 13,
+                "value": "1234\t\\\r\n\u0007\b\u000b\f\u001b",
+                "encoding": "ascii"
+            }
+        ]
+    },
+    {
+        "cmd": "WINC_CMD_ID_CFG",
+        "elems": [
+            {
+                "type": "WINC_TYPE_INTEGER_UNSIGNED",
+                "length": 1,
+                "value": 99
+            },
+            {
+                "type": "WINC_TYPE_STRING",
+                "length": 10,
+                "value": "1234, abcd",
+                "encoding": "ascii"
+            }
+        ]
+    },
+    {
+        "cmd": "WINC_CMD_ID_CFG",
+        "elems": [
+            {
+                "type": "WINC_TYPE_INTEGER_UNSIGNED",
+                "length": 1,
+                "value": 99
+            },
+            {
+                "type": "WINC_TYPE_BYTE_ARRAY",
+                "length": 0,
+                "value": "",
+                "encoding": "bytes"
+            }
+        ]
+    },
+    {
+        "cmd": "WINC_CMD_ID_CFG",
+        "elems": [
+            {
+                "type": "WINC_TYPE_INTEGER_UNSIGNED",
+                "length": 1,
+                "value": 99
+            },
+            {
+                "type": "WINC_TYPE_BYTE_ARRAY",
+                "length": 4,
+                "value": "12345678",
+                "encoding": "bytes"
+            }
+        ]
+    },
+    {
+        "cmd": "WINC_CMD_ID_CFG",
+        "elems": [
+            {
+                "type": "WINC_TYPE_INTEGER_UNSIGNED",
+                "length": 1,
+                "value": 99
+            },
+            {
+                "type": "WINC_TYPE_IPV4ADDR",
+                "length": 4,
+                "value": "192.168.1.1"
+            }
+        ]
+    },
+    {
+        "cmd": "WINC_CMD_ID_CFG",
+        "elems": [
+            {
+                "type": "WINC_TYPE_INTEGER_UNSIGNED",
+                "length": 1,
+                "value": 99
+            },
+            {
+                "type": "WINC_TYPE_STRING",
+                "length": 13,
+                "value": "192.168.1.355",
+                "encoding": "ascii"
+            }
+        ]
+    },
+    {
+        "cmd": "WINC_CMD_ID_CFG",
+        "elems": [
+            {
+                "type": "WINC_TYPE_INTEGER_UNSIGNED",
+                "length": 1,
+                "value": 99
+            },
+            {
+                "type": "WINC_TYPE_IPV4ADDR",
+                "length": 5,
+                "value": "192.168.1.1",
+                "scope": 24
+            }
+        ]
+    },
+    {
+        "cmd": "WINC_CMD_ID_CFG",
+        "elems": [
+            {
+                "type": "WINC_TYPE_INTEGER_UNSIGNED",
+                "length": 1,
+                "value": 99
+            },
+            {
+                "type": "WINC_TYPE_STRING",
+                "length": 15,
+                "value": "192.168.1.1/24R",
+                "encoding": "ascii"
+            }
+        ]
+    },
+    {
+        "cmd": "WINC_CMD_ID_CFG",
+        "elems": [
+            {
+                "type": "WINC_TYPE_INTEGER_UNSIGNED",
+                "length": 1,
+                "value": 99
+            },
+            {
+                "type": "WINC_TYPE_IPV4ADDR",
+                "length": 8,
+                "value": "192.168.1.1",
+                "scope": "255.255.255.0"
+            }
+        ]
+    },
+    {
+        "cmd": "WINC_CMD_ID_CFG",
+        "elems": [
+            {
+                "type": "WINC_TYPE_INTEGER_UNSIGNED",
+                "length": 1,
+                "value": 99
+            },
+            {
+                "type": "WINC_TYPE_STRING",
+                "length": 25,
+                "value": "192.168.1.1/255.355.255.0",
+                "encoding": "ascii"
+            }
+        ]
+    },
+    {
+        "cmd": "WINC_CMD_ID_CFG",
+        "elems": [
+            {
+                "type": "WINC_TYPE_INTEGER_UNSIGNED",
+                "length": 1,
+                "value": 99
+            },
+            {
+                "type": "WINC_TYPE_IPV6ADDR",
+                "length": 16,
+                "value": "2001:470:6cfa:130:1000:1000:1000:1000"
+            }
+        ]
+    },
+    {
+        "cmd": "WINC_CMD_ID_CFG",
+        "elems": [
+            {
+                "type": "WINC_TYPE_INTEGER_UNSIGNED",
+                "length": 1,
+                "value": 99
+            },
+            {
+                "type": "WINC_TYPE_IPV6ADDR",
+                "length": 17,
+                "value": "2001:470:6cfa:130:1000:1000:1000:1000",
+                "scope": 64
+            }
+        ]
+    },
+    {
+        "cmd": "WINC_CMD_ID_CFG",
+        "elems": [
+            {
+                "type": "WINC_TYPE_INTEGER_UNSIGNED",
+                "length": 1,
+                "value": 99
+            },
+            {
+                "type": "WINC_TYPE_STRING",
+                "length": 41,
+                "value": "2001:470:6CFA:130:1000:1000:1000:1000/64R",
+                "encoding": "ascii"
+            }
+        ]
+    },
+    {
+        "cmd": "WINC_CMD_ID_CFG",
+        "elems": [
+            {
+                "type": "WINC_TYPE_INTEGER_UNSIGNED",
+                "length": 1,
+                "value": 99
+            },
+            {
+                "type": "WINC_TYPE_MACADDR",
+                "length": 6,
+                "value": "12:34:56:78:9a:bc"
+            }
+        ]
+    },
+    {
+        "cmd": "WINC_CMD_ID_CFG",
+        "elems": [
+            {
+                "type": "WINC_TYPE_INTEGER_UNSIGNED",
+                "length": 1,
+                "value": 99
+            },
+            {
+                "type": "WINC_TYPE_STRING",
+                "length": 17,
+                "value": "12:34:56:78:9a:gc",
+                "encoding": "ascii"
+            }
+        ]
+    },
+    {
+        "cmd": "WINC_CMD_ID_CFG",
+        "elems": [
+            {
+                "type": "WINC_TYPE_INTEGER_UNSIGNED",
+                "length": 1,
+                "value": 99
+            },
+            {
+                "type": "WINC_TYPE_BOOL",
+                "length": 1,
+                "value": true
+            }
+        ]
+    },
+    {
+        "cmd": "WINC_CMD_ID_CFG",
+        "elems": [
+            {
+                "type": "WINC_TYPE_INTEGER_UNSIGNED",
+                "length": 1,
+                "value": 99
+            },
+            {
+                "type": "WINC_TYPE_BOOL",
+                "length": 1,
+                "value": false
+            }
+        ]
+    },
+    {
+        "cmd": "WINC_CMD_ID_CFG",
+        "elems": [
+            {
+                "type": "WINC_TYPE_INTEGER_UNSIGNED",
+                "length": 1,
+                "value": 99
+            },
+            {
+                "type": "WINC_TYPE_UTC_TIME",
+                "length": 4,
+                "value": 1761732765
+            }
+        ]
+    }
+]
