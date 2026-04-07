@@ -160,7 +160,7 @@ If you are using MPLAB Harmony, use the integrated driver and services:
 
 ## API Specification
 
-See the [Binary Protocol API Specification (PDF)](../doc/WINCS02_API_Reference.pdf) for the
+See the Binary Protocol API Specification ([PDF](../doc/WINCS02_API_Reference.pdf), [Markdown](../doc/WINCS02_API_Reference.md)) for the
 complete protocol reference.
 
 ## Troubleshooting

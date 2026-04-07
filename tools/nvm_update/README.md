@@ -2,6 +2,11 @@
 
 A Python utility for downloading firmware to RNWF02 devices using AT commands over serial communication.
 
+## What This Folder Contains
+
+- `nvm-update.py`: main command-line tool
+- `requirements.txt`: Python dependency list (`pyserial`)
+
 ## Features
 
 - AT command-based firmware download for RNWF02 devices

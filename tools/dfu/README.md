@@ -6,6 +6,13 @@ via a USB-to-UART bridge cable.
 For full setup and usage instructions, see the
 [DFU section of the Application Developer's Guide](https://onlinedocs.microchip.com/oxy/GUID-92FEB3A1-C10F-47DF-BF88-C06521800526-en-US-1/GUID-37EE4ED4-0BBE-4093-80FE-9F87C5DE740D.html).
 
+## What This Folder Contains
+
+- `do_dfu.py`: main command-line tool (recommended entry point)
+- `dfu.py`: low-level DFU transport layer used by `do_dfu.py`
+- `requirements.txt`: Python dependency list (`pyserial`)
+- `drivers/`: USB-to-UART bridge driver information
+
 ## Quick Start
 
 ```bash

@@ -4,13 +4,11 @@ The FLFS tool creates and manages flash file system images for WINCS02 and
 RNWF02 modules. Use it to provision custom TLS certificates, private keys,
 and configuration files.
 
-## Files
+## What This Folder Contains
 
-| File | Description |
-|------|-------------|
-| `flfs.exe` | FLFS utility for Windows |
-| `flfs` | FLFS utility for Linux |
-| `certs/ssl.tar` | Default SSL certificate archive |
+- `flfs.exe`: FLFS utility for Windows
+- `flfs`: FLFS utility for Linux
+- `certs/ssl.tar`: default SSL certificate archive
 
 ## Usage
 

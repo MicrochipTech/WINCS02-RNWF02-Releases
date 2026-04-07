@@ -24,7 +24,7 @@ Each release contains the following binaries:
 
 ## Documentation
 
-- [AT Command API Specification (PDF)](doc/RNWF02_AT_Command_Reference.pdf) — complete command reference
+- AT Command API Specification: [PDF](doc/RNWF02_AT_Command_Reference.pdf), [Markdown](doc/RNWF02_AT_Command_Reference.md) — complete command reference
 - [Application Developer's Guide](https://onlinedocs.microchip.com/g/GUID-92FEB3A1-C10F-47DF-BF88-C06521800526) — getting started, examples, DFU instructions
 - [Data Sheet (PDF)](https://ww1.microchip.com/downloads/aemDocuments/documents/WSG/ProductDocuments/DataSheets/RNWF02-Wi-Fi-Module-Data-Sheet-DS70005544.pdf)
 

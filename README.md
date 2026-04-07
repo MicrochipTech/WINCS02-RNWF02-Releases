@@ -53,7 +53,7 @@ Firmware can be updated on running **WINCS02** and **RNWF02** devices:
 |---|---|
 | [Latest Firmware Release Package](../../releases/tag/WINCS02_v3.2.0) |[Latest Firmware Release Package](../../releases/tag/RNWF02_v3.2.0) | 
 | [Host Driver](./WINCS02/driver/) | N/A |
-| [API Specification (Binary Protocol)](./WINCS02/doc/WINCS02_API_Reference.pdf) | [API Specification (AT Command)](./RNWF02/doc/RNWF02_AT_Command_Reference.pdf) |
+| API Specification (Binary Protocol): [PDF](./WINCS02/doc/WINCS02_API_Reference.pdf), [Markdown](./WINCS02/doc/WINCS02_API_Reference.md) | API Specification (AT Command): [PDF](./RNWF02/doc/RNWF02_AT_Command_Reference.pdf), [Markdown](./RNWF02/doc/RNWF02_AT_Command_Reference.md) |
 | [Application Developer Guide](https://onlinedocs.microchip.com/g/GUID-B7A95EBE-7BB2-4AF4-A525-700FB718E47A) | [Application Developer Guide](https://onlinedocs.microchip.com/g/GUID-92FEB3A1-C10F-47DF-BF88-C06521800526) |
 | [Data Sheet](https://ww1.microchip.com/downloads/aemDocuments/documents/WSG/ProductDocuments/DataSheets/WINCS02-Wi-Fi-Module-Data-Sheet-DS70005577.pdf) | [Data Sheet](https://ww1.microchip.com/downloads/aemDocuments/documents/WSG/ProductDocuments/DataSheets/RNWF02-Wi-Fi-Module-Data-Sheet-DS70005544.pdf) |
 

@@ -4,6 +4,13 @@ A Python utility for compiling, encoding, and decoding WINCS02/RNWF02 configurat
 
 Configuration files produced by this tool can be included in a flash file system image built with the [flfs](../flfs/) tool, allowing the device to automatically apply settings at boot.
 
+## What This Folder Contains
+
+- `cfgc.py`: main command-line tool
+- `requirements.txt`: Python dependency list (`pyclibrary`)
+- `examples/test_vectors.at`: sample AT command input
+- `examples/test_vectors.json`: sample JSON representation
+
 ## Modes of Operation
 
 | Mode | Description |

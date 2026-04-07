@@ -24,7 +24,7 @@ Each release contains the following binaries:
 
 ## Documentation
 
-- [Binary Protocol API Specification (PDF)](doc/WINCS02_API_Reference.pdf) — complete protocol reference
+- Binary Protocol API Specification: [PDF](doc/WINCS02_API_Reference.pdf), [Markdown](doc/WINCS02_API_Reference.md) — complete protocol reference
 - [Application Developer's Guide](https://onlinedocs.microchip.com/g/GUID-B7A95EBE-7BB2-4AF4-A525-700FB718E47A) — getting started, examples, DFU instructions
 - [Data Sheet (PDF)](https://ww1.microchip.com/downloads/aemDocuments/documents/WSG/ProductDocuments/DataSheets/WINCS02-Wi-Fi-Module-Data-Sheet-DS70005577.pdf)
 
