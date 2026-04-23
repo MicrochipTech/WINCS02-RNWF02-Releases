@@ -4,7 +4,7 @@ Microchip **WINCS02** and **RNWF02** are Wi-Fi network controller devices availa
 
 This repository is the central hub for the latest firmware and programming resources:
 
-- [**Firmware Release Packages**](../../releases) — GitHub releases containing firmware binaries and release notes
+- [**Firmware Release Packages**](https://github.com/MicrochipTech/WINCS02-RNWF02-Releases/releases) — GitHub releases containing firmware binaries and release notes
 - [**Tools**](./tools/) — Tools for programming and updating firmware and files on the devices
 - [**Host Driver**](./WINCS02/driver/) — The standalone driver for host MCUs to interface to the **WINCS02** device
 
@@ -40,18 +40,18 @@ This repository is the central hub for the latest firmware and programming resou
 
 ## Firmware Programming and Updating
 Firmware can be programmed or updated on non-running **WINCS02** and **RNWF02** devices:
-- via the [DFU tool](../tools/dfu/); or
+- via the [DFU tool](./tools/dfu/); or
 - via a host application that implements the DFU process described in the application developer guide.
 
 Firmware can be updated on running **WINCS02** and **RNWF02** devices:
-- via the [NVM Update tool](../tools/nvm_update/); or
+- via the [NVM Update tool](./tools/nvm_update/); or
 - via a host application that implements OTA as described in the API specification.
 
 ## Quick Links
 
 | WINCS02 | RNWF02 |
 |---|---|
-| [Latest Firmware Release Package](../../releases/tag/WINCS02_v3.2.0) |[Latest Firmware Release Package](../../releases/tag/RNWF02_v3.2.0) | 
+| [Latest Firmware Release Package](https://github.com/MicrochipTech/WINCS02-RNWF02-Releases/releases/download/v3.2.0/WINCS02_Module_Release_3.2.0_a1ac4a49.zip) | [Latest Firmware Release Package](https://github.com/MicrochipTech/WINCS02-RNWF02-Releases/releases/download/v3.2.0/RNWF02_Module_Release_3.2.0_a1ac4a49.zip) |
 | [Host Driver](./WINCS02/driver/) | N/A |
 | API Specification (Binary Protocol): [PDF](./WINCS02/doc/WINCS02_API_Reference.pdf), [Markdown](./WINCS02/doc/WINCS02_API_Reference.md) | API Specification (AT Command): [PDF](./RNWF02/doc/RNWF02_AT_Command_Reference.pdf), [Markdown](./RNWF02/doc/RNWF02_AT_Command_Reference.md) |
 | [Application Developer Guide](https://onlinedocs.microchip.com/g/GUID-B7A95EBE-7BB2-4AF4-A525-700FB718E47A) | [Application Developer Guide](https://onlinedocs.microchip.com/g/GUID-92FEB3A1-C10F-47DF-BF88-C06521800526) |
